@@ -1,0 +1,186 @@
+$blue-color: #00e0e0;
+$mauve-color: #cfdbff;
+$aubergine-color: #bfbfff;
+
+.jumbotron {
+    margin-bottom: 0px;
+    padding-bottom: 60px;
+    background-color: $aubergine-color;
+    color: #fff;
+    h1, h3 {
+        font-weight: lighter;
+    }
+    .join-btn {
+        background-color: #00dcdf;
+        padding-right: 20px;
+        padding-left: 20px;
+        border-radius: 20px;
+        margin-top: 20px;
+    }
+}
+.header {
+    background-color: $aubergine-color;
+}
+
+.navbar {
+    margin-bottom: 0;
+    h2 > a {
+        color: #fff;
+    }
+    .btn-md {
+        padding: 5px 20px 5px 20px;
+        color: #fff;
+    }
+}
+.navbar-default .navbar-nav>li>a {
+    color: #fff;
+}
+
+.navbar-default {
+    border-color: $aubergine-color;
+}
+
+.top-section, .laptop-section {
+    background-color: $aubergine-color;
+}
+.centered {
+    text-align: center;
+}
+.unstyled {
+    list-style: none;
+}
+
+.centerd-image {
+    width: 80%;
+}
+.uppercase {
+    text-transform: uppercase;
+}
+
+.menu {
+    float: right;
+    margin-top: 20px;
+}
+
+.laptop-section img {
+    width: 100%;
+}
+.contact-button {
+    margin: 15px;
+    border-radius: 50px;
+    background-color: $blue-color;
+}
+
+.learnMore {
+    margin-top: 30px;
+    border: 2px solid #8472fa;
+    border-radius: 20px;
+    color: #8472fa;
+    font-size: 10px;
+    padding-right: 20px;
+    padding-left:20px
+      
+  }
+
+.third-feature {
+    background-color: #faf8fe
+}
+
+.feature, .testimonials {
+    margin-top: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.feature h6, .testimonials h6 {
+    color: #50e2f0;
+    font-weight: bold;
+}
+
+.feature {
+    h3 {
+        line-height: 3rem;
+    }
+    .feature-desc img {
+        margin-top: 50px;
+    }
+}
+
+.logo {
+    border-top: 1px solid #ede8f2;
+    margin-top: 15px;
+}
+.logo > img {
+    width: 10rem;
+    padding: 10px 10px 10px 0;
+}
+
+.testimonial { 
+    -webkit-box-shadow: 10px 10px 73px 0px rgba(201,193,201,0.28);
+-moz-box-shadow: 10px 10px 73px 0px rgba(201,193,201,0.28);
+box-shadow: 10px 10px 73px 0px rgba(201,193,201,0.28);
+    padding: 20px;
+    margin-top: 30px;
+    background-color: #fefefe;
+}
+
+.description {
+    display: inline-block;
+    margin-bottom: 30px;
+}
+
+.quote {
+    height: 3rem;
+}
+
+.name {
+    font-weight: bold;
+}
+
+.statistics {
+    color: #46427d;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    p {
+        font-size: 10px;
+    }
+}
+
+.playstore {
+    position: relative;
+    bottom: -60px;
+    section {
+        background-color: #f5f3ff;
+    }
+    h2 {
+        color: #46427d;
+    }
+    .download-btn {
+        background-color: #00cdef;
+        color: #fff;
+        font-size: 10px;
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+}
+
+.playstore h2 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.playstore button {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 2rem;
+}
+
+.copyright {
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+footer {
+    padding-top: 50px;
+    background-color: #6582f5;
+    color: #fff;
+    z-index: 1;
+}
